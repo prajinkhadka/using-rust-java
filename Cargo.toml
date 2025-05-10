@@ -1,0 +1,12 @@
+[package]
+name = "rust_json_parser"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "rust_json_parser"
+crate-type = ["cdylib"]
+
+[dependencies]
+simd-json = "0.13"
+jni = "0.21"
